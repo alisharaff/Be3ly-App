@@ -1,6 +1,6 @@
 # be3lyapp
 
-A new Flutter project.
+A new Ecommerce Flutter project.
 
 ## Getting Started
 
