@@ -13,15 +13,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-#Package used
+  #Package used
   cupertino_icons: ^1.0.2
   get: ^4.6.5
+  flutter_launcher_icons: ^0.13.1
   # # DateTime
   # jiffy: ^5.0.0
   # intl: ^0.17.0
   # http: ^0.13.4
   # # Images
-  # cached_network_image: ^3.2.0 
+  # cached_network_image: ^3.2.0
   # image_picker: ^0.7.2+1
   # # Animate
   # show_up_animation: ^2.0.0
@@ -31,7 +32,7 @@ dependencies:
   # google_maps_flutter: ^2.1.5
   # geolocator: ^8.0.5
   # geocoding: ^2.0.4
-  # # Firebase And Notification 
+  # # Firebase And Notification
   # firebase_messaging: ^11.2.7
   # firebase_core: ^1.12.0
   # flutter_local_notifications: ^9.5.3+1
@@ -40,20 +41,20 @@ dependencies:
   # sqflite: ^2.0.2
   # shared_preferences: ^2.0.15
   # path: ^1.8.0
-  # # Qrcode 
+  # # Qrcode
   # qr_flutter: ^4.0.0
   # scan: ^1.6.0
   # grouped_list: ^4.2.0
   # url_launcher: ^6.1.2
   # dropdown_search: ^3.0.1
   # badges: ^2.0.2
-  # # Icon 
+  # # Icon
   # # flutter_svg: ^1.0.3
   # font_awesome_flutter: ^10.1.0
   # fluttericon: ^2.0.0
   # dartz: ^0.10.1
   # # Google Auth
-  # google_sign_in: ^5.3.1  
+  # google_sign_in: ^5.3.1
   # device_preview: ^0.7.5
   # responsive_builder: ^0.4.2
   # image_pickers: ^2.0.0+2
@@ -61,11 +62,27 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
 
- 
   flutter_lints: ^2.0.0
 
-
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/LogoApp/BlackLogo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "path/to/image.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "path/to/image.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "path/to/image.png"
 flutter:
 
   
