@@ -1,4 +1,8 @@
 
+import 'package:flutter/cupertino.dart';
+
+
+
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -6,9 +10,13 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    return Scaffold(appBar: AppBar(),body: Center(child: Text("Hi"),),);
+
     return  Scaffold(
       appBar: AppBar(title: Text("Ios"),centerTitle: true,),
       body: Center(child:Text("Hi,Ali")) ,
     );
+
   }
 }

@@ -15,10 +15,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Be3ly App',
       theme: ThemeData(
-        // This is the theme of your application.
+
         primarySwatch: Colors.teal,
       ),
-      home: const HomeScreen(),
+      home: HomeScreen(),
+        primarySwatch: Colors.teal,
+      ),
+      home: HomeScreen(),
+
     );
   }
 }
