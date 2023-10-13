@@ -1,4 +1,4 @@
-import 'package:be3lyapp/view/screen/onboarding.dart';
+import 'package:be3ly/view/screen/onboarding.dart';
 import 'package:flutter/material.dart';
 
 import 'core/constant/routes.dart';
