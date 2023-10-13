@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../constants.dart';
-import 'app_text.dart';
+import '../widget/app_text.dart';
 
 class CategoryItem extends StatelessWidget {
   const CategoryItem(

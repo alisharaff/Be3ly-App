@@ -3,8 +3,8 @@ import 'package:get/get.dart';
 
 import '../core/constant/routes.dart';
 import '../data/datasource/static/static.dart';
-import '../view/login/view.dart';
-import '../view/register/view.dart';
+import '../view/auth/login/view.dart';
+import '../view/auth/register/view.dart';
 
 abstract class OnBoardingController extends GetxController {
   next();

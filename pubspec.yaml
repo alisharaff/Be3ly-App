@@ -25,6 +25,15 @@ dependencies:
   persistent_bottom_nav_bar_v2: ^4.2.8
   flutter_svg: ^2.0.7
   flutter_screenutil: ^5.9.0
+  firebase_core: ^2.16.0
+  firebase_auth: ^4.10.0
+  cloud_firestore: ^4.9.3
+  carousel_slider: ^4.2.1
+  # For web support
+  webdev: ^3.0.0
+# For Android support
+  http: ^0.13.3
+  shimmer: ^3.0.0
   # # DateTime
   # jiffy: ^5.0.0
   # intl: ^0.17.0

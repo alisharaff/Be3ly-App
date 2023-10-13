@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1086229509296",
+    "project_id": "be3ly-46eb8",
+    "storage_bucket": "be3ly-46eb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086229509296:android:6b52861c2faa1e3241f775",
+        "android_client_info": {
+          "package_name": "com.example.be3lyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrAH-k-U0B4k7-XIYdAPZMAdS25hK464c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

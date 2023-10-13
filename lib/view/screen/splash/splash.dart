@@ -45,7 +45,7 @@ class _SplashViewState extends State<SplashView> {
           Center(
               child: Text(
             "Be3ly App",
-            style: TextStyle(fontSize: 40.0, color: Colors.blueGrey[700]),
+            style: TextStyle(fontSize: 40.0, color: Color(0xFF455A64)),
           )),
           Center(
               child: Text(

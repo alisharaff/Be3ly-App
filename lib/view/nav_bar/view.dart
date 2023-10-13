@@ -1,10 +1,9 @@
+import 'package:be3ly/view/screen/home_screen/home.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar_v2/persistent-tab-view.dart';
 
 import '../../core/constants.dart';
-
-
 
 class NavBarView extends StatefulWidget {
   const NavBarView({super.key});
@@ -17,7 +16,11 @@ class _NavBarViewState extends State<NavBarView> {
   final _controller = PersistentTabController();
   List<Widget> _buildScreens() {
     return [
-      // const HomeView(),
+       HomeScreen(),
+       HomeScreen(),
+       HomeScreen(),
+       HomeScreen(),
+       HomeScreen(),
       // const CategoriesView(),
       // const CartView(),
       // const FavoriteView(),

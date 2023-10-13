@@ -1,15 +1,12 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../core/constants.dart';
-import '../../core/core/validator/validator.dart';
-import '../../core/widgets/app_button.dart';
-import '../../core/widgets/app_text.dart';
-import '../../core/widgets/app_text_form_field.dart';
+import '../../../core/functions/validator/validator.dart';
+import '../../core/widget/app_button.dart';
+import '../../core/widget/app_text.dart';
+import '../../core/widget/app_text_form_field.dart';
 import 'cubit.dart';
-
-
 
 class ForgetPasswordView extends StatelessWidget {
   const ForgetPasswordView({super.key});
@@ -24,9 +21,12 @@ class ForgetPasswordView extends StatelessWidget {
         final cubit = ForgetPasswordCubit.of(context);
         return Scaffold(
           appBar: AppBar(
+            elevation: 0,
+            backgroundColor: const Color.fromARGB(0, 255, 255, 255),
             leading: IconButton(
               icon: const Icon(
                 Icons.arrow_back_ios,
+                color: Colors.black,
               ),
               onPressed: () {
                 Navigator.pop(context);

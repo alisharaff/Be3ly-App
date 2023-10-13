@@ -1,4 +1,4 @@
-// import 'package:ecommerce/core/assets/app_assets.dart';
+// import 'package:be3ly/core/core/assets/app_assets.dart';
 // import 'package:flutter/material.dart';
 // import 'package:flutter_animate/flutter_animate.dart';
 // import 'package:flutter_screenutil/flutter_screenutil.dart';
