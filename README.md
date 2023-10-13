@@ -16,5 +16,7 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.![play_store_512]
 # Be3ly-App
 
-![1024](https://github.com/alisharaff/Be3ly-App/assets/77925806/70390722-e3b8-41fa-8ba9-14e3fe1dbd91)
+![BlackLogo](https://github.com/alisharaff/Be3ly-App/assets/77925806/43bd70c9-919d-497c-9fe9-c517f0d649f4)
+
+
 
